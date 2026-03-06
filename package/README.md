@@ -111,7 +111,12 @@ github.com/badoux/checkmail v1.2.4/go.mod h1:XroCOBU5zzZJcLvgwU15I+2xXyCdTWXyR9M
 - go get <pacote> : baixa uma dependência
 - go build : compila o projeto em um binário (só por jogar no docker)
 - go run main.go : executa sem compilar
-- go mod tidy : remove todas as dependencias que NÃO estão sendo usadas
+
+- go mod tidy :
+analisa todos os import do projeto
+verifica o que realmente é usado
+atualiza go.mod
+atualiza go.sum
 
 > basicamente go run .. para desenvolvimento
 > basicamente go build ... para prod
