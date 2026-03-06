@@ -24,10 +24,10 @@ Navegue até a pasta Downloads e extraia o arquivo para **/usr/local**
 
 ```bash
 cd ~/Downloads
-tar -C /usr/local -xzf go1.26.0.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.26.0.linux-amd64.tar.gz
 ```
 
-![alt text](./screenshots/image-5.png) 
+![alt text](./screenshots/image-8.png) 
 
 **Obs:** A documentação oficial recomenda usar rm -rf /usr/local/go && tar -C /usr/local -xzf go1.26.0.linux-amd64.tar.gz para versões subsequentes. Na primeira instalação, não é necessário remover versões anteriores, até pq você nem vai possuir nada mesmo..
 
@@ -44,9 +44,9 @@ export PATH=$PATH:/usr/local/go/bin
 
 **Para sair do nano:**
 
-Pressione **Ctrl + O**, depois **Enter** para salvar
-&
-Pressione **Ctrl + X** para sair
+- Pressione **Ctrl + O**, 
+- Pressione **Enter** para salvar
+- Pressione **Ctrl + X** para sair
 
 4. **Verificar instalação**
 
