@@ -5,7 +5,12 @@
   
 > - [COURSE](https://www.udemy.com/course/aprenda-golang-do-zero-desenvolva-uma-aplicacao-completa/)
 
- # Documentação do meu aprendizado em Go, seguindo um curso prático do zero.
+ # Documentação do meu aprendizado em Go
+
+##### **Objetivo:**  
+
+- 16dYm3yh-36y-_gjmeR0LjkPFtS7yXxwEf-xqK59wKhfVuruw3NSZpj61CxOjKyOldP_xWLOZLXjfJ_LaenCB2ZIc4pyasNu5UQz-M3Lv08-XU0Utn30SG9uW8UCEDJD6qboYd9_WXOVhHUzbsNvr5Cajc3lgULftjbHwqR2dv55jZ2MiDAiGfHcFRNAHF28
+- key:**go**
 
 I - **Instalação do Go**
 
