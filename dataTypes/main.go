@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 // func main()  {
 // 	// int8, int16, int32, int64
@@ -68,24 +71,32 @@ func main() {
 	str2 := "texto2"
 	fmt.Println(str2)
 
-	char := 't'
+	char := 't' 
 	fmt.Println(char) // output -> 116, numero que a letra t esta na tabela acii
 
 	//VALOR ZERO
 
-	var str3 string 
-	fmt.Println(str3)
+	var str3 string
+	fmt.Println(str3) // 
 
 	//BOOLEAN
 
 	var tv bool = false
-	fmt.Println(tv)     // como eu alguém diz que null é igual a false... vou dormir depois dessa
+	fmt.Println(tv) // como alguém diz que null é igual a false...kkk esse mico vou guardar pra vida kk
 
-	tvv := false
-	fmt.Println(tvv) 
+	tv1 := true
+	fmt.Println(tv1)
 
-	//ERROR   //tema bateu muito com o clima
+	var tv2 bool
+	fmt.Println(tv2) //false
 
+	//ERROR   //tema bateu muito com o clima acima
+
+	var erro1 error 
+	fmt.Println(erro1) //<nil>
+
+	var erro2 error = errors.New("TRATANDO ERROS")
+	fmt.Println(erro2) 
 
 }
 
