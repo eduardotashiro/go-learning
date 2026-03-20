@@ -27,7 +27,7 @@ type circulo struct {
 }
 
 func (c circulo) area() float64 {
-	return math.Pi * math.Pow(c.raio, 2)
+	return math.Pi * math.Pow(c.raio,2)
 }
 
 func main() {
